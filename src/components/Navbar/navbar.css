@@ -1,0 +1,48 @@
+.leftMenu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 30px;
+	margin-right: 150px;
+}
+.rightMenu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 150px;
+}
+
+.menuButton {
+	display: none !important;
+	float: right;
+}
+
+.username {
+	display: none;
+	margin-left: 8px;
+}
+
+@media (max-width: 767px) {
+	.menuButton {
+		margin-right: 10px;
+		float: right;
+		display: inline !important;
+	}
+
+	.leftMenu,
+	.rightMenu {
+		display: none;
+	}
+
+	/* .logo a {
+		margin-left: -10px;
+	}
+
+	.ant-drawer-title > .brand-font {
+		margin-bottom: 0;
+	}
+
+	.username {
+		display: inline-block;
+	} */
+}
